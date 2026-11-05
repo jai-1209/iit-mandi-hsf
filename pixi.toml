@@ -6,6 +6,8 @@ platforms = ['osx-arm64', "linux-64"]
 version = "0.1.0"
 
 [tasks]
+hello = "python test.py"
+
 
 [dependencies]
 scipy = ">=1.18.1,<2"
